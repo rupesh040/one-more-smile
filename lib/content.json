@@ -1,0 +1,403 @@
+{
+  "NGO": {
+    "templateComponents": {
+      "template-1": {
+        "shared": {
+          "Header": "NGOHeader1",
+          "Footer": "NGOFooter1"
+        },
+        "pages": {
+          "home": {
+            "components": [
+              {
+                "key": "Banner",
+                "component": "NGOBanner1"
+              },
+              {
+                "key": "CompanyStatistics",
+                "component": "NGOStats1"
+              },
+              {
+                "key": "About",
+                "component": "NGOAbout1"
+              },
+              {
+                "key": "Services",
+                "component": "NGOServices1"
+              },
+              {
+                "key": "WhyChooseUs",
+                "component": "NGOWhyChooseUs1"
+              },
+              {
+                "key": "Gallery",
+                "component": "NGOGallery1"
+              },
+              {
+                "key": "Testimonial",
+                "component": "NGOTestimonial1"
+              },
+              {
+                "key": "Contact",
+                "component": "NGOContact1"
+              },
+              {
+                "key": "Donate",
+                "component": "NGODonate1"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "sections": {
+      "Header": {
+        "variants": {
+          "NGOHeader1": {
+            "logo": "/images/logo.png",
+            "links": [
+              {
+                "name": "Home",
+                "href": "#home"
+              },
+              {
+                "name": "About Us",
+                "href": "#about"
+              },
+              {
+                "name": "Services",
+                "href": "#services"
+              },
+              {
+                "name": "Why Us",
+                "href": "#why-us"
+              },
+              {
+                "name": "Gallery",
+                "href": "#gallery"
+              },
+              {
+                "name": "Testimonials",
+                "href": "#testimonials"
+              },
+              {
+                "name": "Contact Us",
+                "href": "#contact"
+              }
+            ],
+            "button": "Donate Now"
+          }
+        }
+      },
+      "Banner": {
+        "variants": {
+          "NGOBanner1": {
+            "cursiveText": "One More Smile Foundation",
+            "headingPart1": "Support Those in Need",
+            "headingPart2": "and Make an Impact",
+            "description": "Every act of kindness creates a ripple of hope. Your support can change someone’s life, bringing smiles, opportunities, and a brighter future to those in need.",
+            "image": "/images/hero.jpg"
+          }
+        }
+      },
+      "CompanyStatistics": {
+        "variants": {
+          "NGOStats1": {
+            "stats": [
+              {
+                "value": "10K+",
+                "label": "Children Supported",
+                "icon": "Users"
+              },
+              {
+                "value": "120+",
+                "label": "Learning Centers",
+                "icon": "GraduationCap"
+              },
+              {
+                "value": "50+",
+                "label": "Communities Reached",
+                "icon": "MapPin"
+              },
+              {
+                "value": "100%",
+                "label": "Driven by People Like You",
+                "icon": "Heart"
+              }
+            ]
+          }
+        }
+      },
+      "About": {
+        "variants": {
+          "NGOAbout1": {
+            "cursiveText": "About One More Smile",
+            "headingPart1": "Bringing Hope and Support",
+            "headingPart2": "to Those in Need",
+            "description": "We are a non-profit organization dedicated to improving lives through meaningful support and sustainable initiatives. Our focus is on providing access to education, healthcare, and community development.",
+            "mainImage": "/images/about.jpg",
+            "smallImage": "/images/about-small.jpg",
+            "features": [
+              {
+                "title": "Our Mission",
+                "description": "To create equal opportunities through education, healthcare, and long-term community support.",
+                "icon": "GraduationCap"
+              },
+              {
+                "title": "Our Vision",
+                "description": "To build a more inclusive and compassionate society where every child can learn, grow, and thrive.",
+                "icon": "Users"
+              }
+            ]
+          }
+        }
+      },
+      "Services": {
+        "variants": {
+          "NGOServices1": {
+            "cursiveText": "Our Services",
+            "headingPart1": "Programs That Create",
+            "headingPart2": "Lasting Change",
+            "description": "We run focused programs to support education, healthcare, and overall well-being, helping individuals and communities build a brighter, more independent future.",
+            "items": [
+              {
+                "title": "Education Support",
+                "description": "Providing quality education and learning resources to underprivileged children.",
+                "icon": "GraduationCap"
+              },
+              {
+                "title": "Healthcare Access",
+                "description": "Improving health and well-being through medical support and awareness.",
+                "icon": "HeartPulse"
+              },
+              {
+                "title": "Community Development",
+                "description": "Empowering communities with skills, resources, and opportunities.",
+                "icon": "Users"
+              },
+              {
+                "title": "Child Welfare",
+                "description": "Ensuring the safety, care, and overall development of vulnerable children.",
+                "icon": "Baby"
+              },
+              {
+                "title": "Nutrition & Care",
+                "description": "Supporting proper nutrition and essential care for a healthier future.",
+                "icon": "Utensils"
+              },
+              {
+                "title": "Skill Development",
+                "description": "Offering training and skill-building programs for better livelihoods.",
+                "icon": "Lightbulb"
+              },
+              {
+                "title": "Clean Water & Hygiene",
+                "description": "Promoting access to clean water and better hygiene practices in communities.",
+                "icon": "Droplets"
+              },
+              {
+                "title": "Sustainability Initiatives",
+                "description": "Driving long-term, positive change through eco-friendly and inclusive efforts.",
+                "icon": "Leaf"
+              }
+            ]
+          }
+        }
+      },
+      "WhyChooseUs": {
+        "variants": {
+          "NGOWhyChooseUs1": {
+            "cursiveText": "Why Choose Us",
+            "headingPart1": "A Trusted Partner for",
+            "headingPart2": "Meaningful Change",
+            "description": "We are committed to creating real and lasting impact through transparent, inclusive, and community-focused initiatives.",
+            "image": "/images/why.jpg",
+            "features": [
+              {
+                "title": "Trust & Transparency",
+                "description": "We work with honesty and accountability.",
+                "icon": "Handshake"
+              },
+              {
+                "title": "Community Focused",
+                "description": "Real solutions for real community needs.",
+                "icon": "Users"
+              },
+              {
+                "title": "Lasting Impact",
+                "description": "Programs that create long-term, positive change.",
+                "icon": "Target"
+              },
+              {
+                "title": "People-Centric Approach",
+                "description": "Every initiative is designed to improve lives.",
+                "icon": "Heart"
+              }
+            ]
+          }
+        }
+      },
+      "Gallery": {
+        "variants": {
+          "NGOGallery1": {
+            "cursiveText": "Our Gallery",
+            "headingPart1": "Moments of",
+            "headingPart2": "Our Impact",
+            "description": "A glimpse of our programs, events, and community initiatives that are creating brighter and happier lives.",
+            "items": [
+              {
+                "image": "/images/gallery-1.jpg",
+                "label": "The joy of learning"
+              },
+              {
+                "image": "/images/gallery-2.jpg",
+                "label": "Care for every generation"
+              },
+              {
+                "image": "/images/gallery-3.jpg",
+                "label": "Growing together"
+              },
+              {
+                "image": "/images/gallery-4.jpg",
+                "label": "Giving with kindness"
+              },
+              {
+                "image": "/images/gallery-5.jpg",
+                "label": "Planting a better tomorrow"
+              },
+              {
+                "image": "/images/gallery-6.jpg",
+                "label": "A community of smiles"
+              },
+              {
+                "image": "/images/gallery-7.jpg",
+                "label": "Learning without limits"
+              },
+              {
+                "image": "/images/gallery-8.jpg",
+                "label": "Every smile matters"
+              }
+            ]
+          }
+        }
+      },
+      "Testimonial": {
+        "variants": {
+          "NGOTestimonial1": {
+            "cursiveText": "Testimonials",
+            "headingPart1": "Voices of the People",
+            "headingPart2": "We Support",
+            "description": "Real stories from individuals and communities who have experienced positive change through our programs.",
+            "items": [
+              {
+                "name": "Ananya Sharma",
+                "title": "Student & Beneficiary",
+                "quote": "The education support I received from One More Smile has truly changed my life. It gave me the confidence to continue my studies and dream bigger.",
+                "image": "/images/person-1.jpg",
+                "rating": 5
+              },
+              {
+                "name": "Ramesh Verma",
+                "title": "Community Member",
+                "quote": "The healthcare and community programs have made a real difference in our area. The support is genuine, consistent, and much needed.",
+                "image": "/images/person-2.jpg",
+                "rating": 5
+              },
+              {
+                "name": "Sunita Devi",
+                "title": "Program Beneficiary",
+                "quote": "I am grateful for the skill development training. It has helped me become financially independent and support my family with confidence.",
+                "image": "/images/person-3.jpg",
+                "rating": 5
+              }
+            ]
+          }
+        }
+      },
+      "Contact": {
+        "variants": {
+          "NGOContact1": {
+            "cursiveText": "Get in Touch",
+            "heading": "Contact Us",
+            "description": "Have a question, suggestion, or want to collaborate? We’d love to hear from you.",
+            "fields": {
+              "name": "Your Name",
+              "email": "Your Email",
+              "phone": "Phone Number",
+              "message": "Your Message"
+            },
+            "button": "Send Message"
+          }
+        }
+      },
+      "Donate": {
+        "variants": {
+          "NGODonate1": {
+            "cursiveText": "Support Our Work",
+            "headingPart1": "Donate",
+            "headingPart2": "Now",
+            "description": "Your contribution can create real and lasting change in the lives of those in need.",
+            "items": [
+              {
+                "title": "Support Education",
+                "icon": "GraduationCap"
+              },
+              {
+                "title": "Improve Healthcare",
+                "icon": "HeartPulse"
+              },
+              {
+                "title": "Empower Communities",
+                "icon": "Users"
+              }
+            ]
+          }
+        }
+      },
+      "Footer": {
+        "variants": {
+          "NGOFooter1": {
+            "logo": "/images/logo-w.png",
+            "description": "A non-profit organization dedicated to creating positive change and brighter opportunities for communities in need.",
+            "quickLinks": [
+              {
+                "name": "Home",
+                "href": "#home"
+              },
+              {
+                "name": "About Us",
+                "href": "#about"
+              },
+              {
+                "name": "Services",
+                "href": "#services"
+              },
+              {
+                "name": "Why Us",
+                "href": "#why-us"
+              },
+              {
+                "name": "Gallery",
+                "href": "#gallery"
+              },
+              {
+                "name": "Testimonials",
+                "href": "#testimonials"
+              },
+              {
+                "name": "Contact Us",
+                "href": "#contact"
+              }
+            ],
+            "contact": {
+              "address": "123, Community Road, New Delhi - 110001",
+              "phone": "+91 98765 43210",
+              "email": "info@onemoresmile.org"
+            },
+            "copyright": "© 2026 One More Smile. All Rights Reserved."
+          }
+        }
+      }
+    }
+  }
+}
