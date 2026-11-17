@@ -34,7 +34,7 @@ export default function WhyChooseUsSection() {
   return (
     <section id="why-us" className="mx-auto max-w-7xl px-6 py-16 sm:py-20 lg:py-24">
       <Reveal className="grid items-center gap-12 lg:grid-cols-[.85fr_1.15fr] lg:gap-16">
-        <div className="relative mx-auto w-full max-w-md p-4">
+        <div className="order-2 relative mx-auto w-full max-w-md p-4 lg:order-1">
           <div className="absolute left-0 top-0 h-1/2 w-1/3 border-l-[16px] border-t-[16px] border-brand" />
           <div className="absolute bottom-0 left-0 h-1/3 w-1/3 border-b-[16px] border-l-[16px] border-brand" />
           <img
@@ -43,7 +43,7 @@ export default function WhyChooseUsSection() {
             className="relative aspect-square w-full object-cover"
           />
         </div>
-        <div>
+        <div className="order-1 lg:order-2">
           <Heading data={why} />
           <div className="mt-7 grid gap-x-8 gap-y-9 sm:grid-cols-2">
             {why.features.map((f) => (

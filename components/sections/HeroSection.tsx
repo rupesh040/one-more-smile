@@ -35,16 +35,15 @@ export default function HeroSection() {
   return (
     <section
       id="home"
-      className="relative overflow-hidden bg-lavender pt-8 "
+      className="relative overflow-hidden bg-lavender"
     >
-      <div className="relative grid w-full items-center lg:min-h-[640px] lg:grid-cols-2">
-        <div className="relative z-10 px-6 pb-10 pt-12 sm:px-12 lg:py-36 lg:pl-[max(2rem,calc((100vw-1280px)/2+1.5rem))] lg:pr-0">
+      <div className="relative grid w-full items-center lg:min-h-[640px] lg:grid-cols-12">
+        <div className="relative z-10 px-6 pb-10 pt-28 sm:px-12 sm:pt-32 lg:col-span-7 xl:col-span-6 lg:py-36 lg:pl-[max(2rem,calc((100vw-1280px)/2+1.5rem))] lg:pr-0">
           <div className="animate-enter">
             <Eyebrow>{banner.cursiveText}</Eyebrow>
-            <h1 className="max-w-xl text-[42px] font-bold leading-[1.08] tracking-[-.045em] sm:text-6xl lg:text-[60px]">
-              {banner.headingPart1}
-              <br />
-              <span className="text-brand">{banner.headingPart2}</span>
+            <h1 className="max-w-2xl text-[32px] font-bold leading-[1.1] tracking-[-.045em] sm:text-5xl lg:text-[48px] xl:text-[54px]">
+              <span className="block">{banner.headingPart1}</span>
+              <span className="block text-brand">{banner.headingPart2}</span>
             </h1>
             <p className="mt-6 max-w-md text-base leading-relaxed text-zinc-700">
               {banner.description}

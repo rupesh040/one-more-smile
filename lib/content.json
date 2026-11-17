@@ -96,7 +96,7 @@
             "headingPart1": "Support Those in Need",
             "headingPart2": "and Make an Impact",
             "description": "Every act of kindness creates a ripple of hope. Your support can change someone’s life, bringing smiles, opportunities, and a brighter future to those in need.",
-            "image": "/images/hero.jpg"
+            "image": "/images/hero.webp"
           }
         }
       },
@@ -135,7 +135,7 @@
             "headingPart1": "Bringing Hope and Support",
             "headingPart2": "to Those in Need",
             "description": "We are a non-profit organization dedicated to improving lives through meaningful support and sustainable initiatives. Our focus is on providing access to education, healthcare, and community development.",
-            "mainImage": "/images/about.jpg",
+            "mainImage": "/images/about.webp",
             "smallImage": "/images/about-small.jpg",
             "features": [
               {
@@ -390,11 +390,29 @@
               }
             ],
             "contact": {
-              "address": "123, Community Road, New Delhi - 110001",
-              "phone": "+91 98765 43210",
-              "email": "info@onemoresmile.org"
+              "address": "2436 Main Street, Springfield, IL 62704, United States",
+              "phone": "+1 000-000-000",
+              "email": "info@xyz.com"
             },
-            "copyright": "© 2026 One More Smile. All Rights Reserved."
+            "socialLinks": [
+              {
+                "name": "Facebook",
+                "href": "https://facebook.com"
+              },
+              {
+                "name": "Instagram",
+                "href": "https://instagram.com"
+              },
+              {
+                "name": "YouTube",
+                "href": "https://youtube.com"
+              },
+              {
+                "name": "LinkedIn",
+                "href": "https://linkedin.com"
+              }
+            ],
+            "copyright": "© 2026 All Rights Reserved. Powered by Lestow"
           }
         }
       }

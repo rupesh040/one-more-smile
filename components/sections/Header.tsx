@@ -117,7 +117,7 @@ export default function Header() {
         <a
           href="#contact"
           onClick={() => handleNavClick("#contact")}
-          className="ml-auto mr-3 flex items-center gap-2 rounded-lg bg-brand px-4 py-3 text-sm font-semibold text-white transition hover:bg-violet-800 lg:ml-0 lg:mr-0"
+          className="hidden items-center gap-2 rounded-lg bg-brand px-4 py-3 text-sm font-semibold text-white transition hover:bg-violet-800 lg:flex"
         >
           <Heart size={15} />
           {header.button}
@@ -126,7 +126,7 @@ export default function Header() {
           aria-label={menu ? "Close menu" : "Open menu"}
           aria-expanded={menu}
           onClick={() => setMenu(!menu)}
-          className="p-2 lg:hidden"
+          className="ml-auto cursor-pointer p-2 text-zinc-700 transition hover:text-brand lg:hidden"
         >
           {menu ? <X /> : <Menu />}
         </button>
@@ -153,6 +153,17 @@ export default function Header() {
               </a>
             );
           })}
+          <a
+            href="#contact"
+            onClick={() => {
+              handleNavClick("#contact");
+              setMenu(false);
+            }}
+            className="mt-2 flex items-center justify-center gap-2 rounded-lg bg-brand px-4 py-3 text-base font-semibold text-white shadow-sm transition hover:bg-violet-800"
+          >
+            <Heart size={16} />
+            {header.button}
+          </a>
         </div>
       )}
     </header>

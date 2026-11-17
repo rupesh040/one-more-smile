@@ -36,7 +36,7 @@ export default function ContactSection() {
   return (
     <section
       id="contact"
-      className="mx-auto max-w-7xl px-6 pb-20 pt-18 "
+      className="mx-auto max-w-7xl px-6 pt-4 pb-20 sm:pt-10 lg:pt-18"
     >
       <Reveal className="grid gap-12 lg:grid-cols-2 lg:gap-16">
         <div>

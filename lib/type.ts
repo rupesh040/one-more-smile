@@ -127,6 +127,7 @@ export interface LandingContent {
             quickLinks: Link[];
             contact: { address: string; phone: string; email: string };
             copyright: string;
+            socialLinks?: Link[];
           };
         };
       };

@@ -34,7 +34,7 @@ export default function AboutSection() {
   return (
     <section id="about" className="mx-auto max-w-7xl px-6 py-18 ">
       <Reveal className="grid items-center gap-12 lg:grid-cols-[.9fr_1.1fr] lg:gap-20">
-        <div className="relative mx-auto w-full max-w-md pb-3 pl-10">
+        <div className="order-2 relative mx-auto w-full max-w-md pb-3 pl-10 lg:order-1">
           <div className="absolute left-[35%] top-[-18px] h-10 w-28 rounded-t-2xl bg-[#8e8af0]" />
           <img
             src={about.mainImage}
@@ -48,7 +48,7 @@ export default function AboutSection() {
           />
           <div className="absolute -bottom-2 left-[42%] -z-10 h-8 w-24 rounded-b-xl bg-brand" />
         </div>
-        <div>
+        <div className="order-1 lg:order-2">
           <Heading data={about} />
           <div className="mt-7 grid gap-4 sm:grid-cols-2">
             {about.features.map((f) => (

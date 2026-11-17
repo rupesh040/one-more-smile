@@ -53,7 +53,11 @@ export default function TestimonialsSection() {
   }, [moving, count, reducedMotion]);
 
   return (
-    <section id="testimonials" aria-label="Community testimonials" className="mx-auto max-w-7xl px-6 py-16 sm:py-20 lg:py-24">
+    <section
+      id="testimonials"
+      aria-label="Community testimonials"
+      className="mx-auto max-w-7xl px-6 pt-4 pb-16 sm:pt-10 sm:pb-20 lg:py-24"
+    >
       <Reveal>
         <Heading data={testimonial} center />
         <div

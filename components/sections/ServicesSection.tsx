@@ -32,7 +32,10 @@ export default function ServicesSection() {
     donate = sections.Donate.variants.NGODonate1,
     footer = sections.Footer.variants.NGOFooter1;
   return (
-    <section id="services" className="mx-auto max-w-7xl px-6 py-18">
+    <section
+      id="services"
+      className="mx-auto max-w-7xl px-6 pt-4 pb-18 sm:pt-10 lg:py-18"
+    >
       <Reveal>
         <Heading data={services} center />
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
